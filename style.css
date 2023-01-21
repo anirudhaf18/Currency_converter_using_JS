@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(253, 202, 183);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 14px;
+    padding: 28px;
+    width: 450px;
+    height: 400px;
+    display: table;
+}
+
+.card>img {
+    height: 85px;
+    display: block;
+}
+
+#img {
+    width: max-content;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.2em;
+}
+
+p {
+    margin-block-start: 0em;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.int {
+    padding: 15px;
+    border-radius: 10px;
+    border-color: goldenrod;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+
+}
+
+#usd {
+    margin-right: 10px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+
+.light {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.dark {
+    background-color: white;
+    color: rgb(253, 202, 183);
+}
